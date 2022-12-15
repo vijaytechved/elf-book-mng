@@ -15,16 +15,18 @@ const routes: Routes = [
     path:'library',
     component:LibraryComponent
   },
-  {
-    path:'page-not-found',
-    component:PageNotFoundComponent
-  },
+  
   {
     path:'book-list',
     component:BookListComponent,
     canActivate:[LoginGuard],
     data: {role:["login"]}
-  }
+  },
+  {
+    path:'**',
+    component:PageNotFoundComponent,
+    redirectTo: ''
+  },
 ];
 
 @NgModule({
