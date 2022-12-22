@@ -1,12 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import {  Router } from '@angular/router';
-
+import { BehaviorSubject } from 'rxjs';
 @Component({
   selector: 'app-book-list',
   templateUrl: './book-list.component.html',
   styleUrls: ['./book-list.component.css']
 })
 export class BookListComponent implements OnInit {
+  behaviourMatrix = new BehaviorSubject({});
   getGuard:any
   books= [
     {
@@ -36,6 +37,7 @@ export class BookListComponent implements OnInit {
   }
 
   modifyArray(){
+    this.behaviourMatrix.next({"isShow" : true,"section":""})
     let b = this.books
     b.forEach(ele=>{
     if(ele.name === 'Test2'){
@@ -67,6 +69,8 @@ export class BookListComponent implements OnInit {
   //   console.log(p)
 
    }
-
+   clickForMoreDetails = () => {
+    this.behaviourMatrix.next({"isShow" : true,"section":""})
+  }
 
 }
