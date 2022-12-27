@@ -7,6 +7,7 @@ import { BookListComponent } from './book-list/book-list.component';
 import { LibraryComponent } from './library/library.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { BehaviourComponent } from './behaviour/behaviour.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { BehaviourComponent } from './behaviour/behaviour.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
