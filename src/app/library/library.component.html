@@ -1,3 +1,28 @@
-<button (click)="checkLogin()">
+<button [class]="btnColor" [disabled]="isDisabled" (click)="checkLogin()">
     Click
 </button>
+<br>
+<br>
+
+<!-- <input type="text" [value]="inputValue" (input)="inputValueByInput($event)"> -->
+<!-- <input type="text" [value]="inputValue" (input)="inputValue = $any($event.target).value"> -->
+<!-- <Two-way-DataBindin> -->
+<input type="text" [(ngModel)]="inputValue">
+{{inputValue}}
+
+<br>
+<br>
+<p *ngIf="salary>100;else lowsaly">
+    Kaka is Happy Today
+</p>
+<ng-template #lowsaly>
+Kaka is Not Happy
+</ng-template>
+<br>
+<br>
+<ul>
+    <li *ngFor="let u of users; index as i; even as e;odd as o">
+        <!-- <h2 [class]="e?'red':'pink'">----{{i+1}} --- {{u}}</h2> -->
+        <h2 [ngClass]="{'red':e, 'pink':!e}">{{e}} {{o}} ----{{i+1}} --- {{u}}</h2>
+    </li>
+</ul>

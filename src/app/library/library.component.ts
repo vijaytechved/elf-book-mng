@@ -12,7 +12,34 @@ import { SharedMotorCKYCRepository } from '../shared/shared.ckyc.repository';
 export class LibraryComponent implements OnInit {
  
   subscribe= new Subscription;
-  constructor(private router:Router, private shared:SharedmotorService, private ckyc:SharedMotorCKYCRepository) { }
+  btnColor:string = 'red'
+  isDisabled:boolean = true
+  inputValue=''
+  salary = 20;
+  authe : any = {"mobile":"","otp":""}
+  users = ['Admin','Super Admin', 'Teacher','Student', 'Parent']
+  constructor(private router:Router, private shared:SharedmotorService, private ckyc:SharedMotorCKYCRepository) 
+  
+  {
+    const colors = ['red','black','white','orange','blue','yellow'];
+    this.btnColor = colors[Math.floor(Math.random()*5)]
+   // console.log(this.btnColor)
+   setTimeout(()=>{
+   this.isDisabled = false
+   },2000);
+  //  let onlyUrl = ""
+  //  let c : any = new Array
+  //  onlyUrl = window.location.href
+   
+  //  c = onlyUrl.split("#");
+  //  console.log(c)
+  //  if(c[0] == "http://localhost:4200/"){
+  //   console.log(c)
+  //    this.authe.mobile = "3328307448";
+  //    this.authe.otp = "~!@#$%";
+  //  }else{
+  //  }
+   }
 
   ngOnInit(): void {
   }
@@ -20,7 +47,28 @@ export class LibraryComponent implements OnInit {
     this.router.navigate(['book-list'])
     sessionStorage.setItem('test','login');
     this.getlocalData()
+    this.getSMSDara()
 
+  }
+
+inputValueByInput(e){
+this.inputValue = e.target.value
+//console.log(e.target.value)
+}
+
+  getRandomCOlrs(){
+  //   const colors = ['red','black','white','orange','blue','yellow'];
+  //  setTimeout(()=>{
+  //  // this.btnColor = Math.round((Math.random*5))
+  //  const nums=[23,3,45,6,6,656,77]; 
+  //   Math.max(nums[23])
+  //  },1000)
+  }
+
+  getSMSDara(){
+    this.shared.getSMSdata().subscribe((res:any)=>{
+      console.log(res)
+    })
   }
   getlocalData(){
    const ckycData = {

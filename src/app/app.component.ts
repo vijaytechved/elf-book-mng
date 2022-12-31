@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'elf-book-mng';
+  test:any
+  name = "Vijay"
+  users = ['Admin','Super Admin', 'Teacher','Student', 'Parent']
+  click(t){
+   this.test = t 
+  }
 }

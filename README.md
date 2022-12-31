@@ -29,3 +29,98 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## create repository by CLI
 $ npx @ngneat/elf-cli repo
 $ npx @ngneat/elf-cli repo --dry-run
+
+
+## for CMD
+.....
+git remote add origin https://github.com/vijaytechved/elf-book-mng.git
+............
+git clone -b dev https://github.com/vijaytechved/elf-book-mng.git
+git clone -b vijay-angular https://github.com/vijaytechved/elf-book-mng.git
+
+## ---------branch name-----------
+
+
+dev-mayur
+dev-anjali
+dev-ramakrishna
+dev-vijay
+dev-dinesh
+
+
+dev
+uat
+pre-prod
+production
+
+git branch dev-mayur
+
+## ...............merge --..............
+git checkout dev
+git merge vijay-angular
+..................
+
+## ............add-------------
+git add .
+git add filename
+git add --all
+------------------------------
+git log
+-----------------
+git status
+--------------------------------------
+
+## For git bash
+.................
+pwd: check currenct dir......
+................
+## ----compare file
+git diff ---123456  --232323---
+................
+git diff --staged
+.................
+
+
+==========================
+## Branches
+
+------------------
+1...
+dev
+uat
+Prod
+=========================
+
+-----
+
+git checkout -b branchname direcly switch the branch
+===================================
+
+---------------------------
+## git tag 
+
+----...git tag -a v1.0 --commit id == -m "fsfdsf"
+1.git tag
+2. git tag v1.0
+3.git tag -a v1.0 -- == -m "fsfdsf"
+4.git push origin v1.0
+
+===========================
+-------------------
+git revert changes
+
+git restore filename
+rm -rf filename
+git checkout --  filename
+git reset HEAD^
+-------------------
+
+===================
+git add -a -m "dfds"
+git rebase -i HEAD-2----- check how how many commets want to show
+==========
+
+
+====
+git clone https://vijayc_techved@bitbucket.org/sairam_techved/usgi-test.git
+=====
