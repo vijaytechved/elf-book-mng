@@ -1,3 +1,14 @@
 
 <router-outlet></router-outlet>
-<app-users *ngFor="let u of users" [name]="u"></app-users>
+<!-- <app-users *ngFor="let u of users" [name]="u"></app-users> -->
+<app-users  (myEvent)="getDatachildToParents($event)"></app-users>
+<ng-container *ngIf="childToParents.length>0;else noData">
+    <ul>
+        <li *ngFor="let name of childToParents">
+            {{name}}
+        </li>
+    </ul>
+</ng-container>
+<ng-template #noData>
+<p>No Data in childToParents</p>
+</ng-template>

@@ -7,10 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'elf-book-mng';
-  test:any
+  childToParents:any
   name = "Vijay"
-  users = ['Admin','Super Admin', 'Teacher','Student', 'Parent']
-  click(t){
-   this.test = t 
+  users = ['Admin','Super Admin', 'Teacher','Student', 'Parent'];
+
+  ngOninit(){
+  //  this.click(true)
+  } 
+  getDatachildToParents(t){
+   this.childToParents = t 
+ //  console.log('childToParents', t)
   }
 }

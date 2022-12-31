@@ -1,4 +1,4 @@
-import { Component, OnInit,Input } from '@angular/core';
+import { Component, OnInit,Input, Output, EventEmitter } from '@angular/core';
 
 @Component({
   selector: 'app-users',
@@ -7,17 +7,19 @@ import { Component, OnInit,Input } from '@angular/core';
 })
 export class UsersComponent implements OnInit {
 @Input() name:string;
- // users = ['Admin','Super Admin', 'Teacher','Student', 'Parent']
+@Output() myEvent = new EventEmitter<any>()
+test:any
+users = [];
   constructor() { 
     
   }
 
   ngOnInit(): void {
-   // this.Users()
+    this.Users()
   }
 
   Users(){
-  //this.users  
+  this.myEvent.emit(this.users) 
   }
 
 }
