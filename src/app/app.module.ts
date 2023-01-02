@@ -8,8 +8,10 @@ import { LibraryComponent } from './library/library.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { BehaviourComponent } from './behaviour/behaviour.component';
 import { HttpClientModule } from '@angular/common/http';
-import {FormsModule} from '@angular/forms';
-import { UsersComponent } from './users/users.component'
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import { UsersComponent } from './users/users.component';
+import { PipePipe } from './pipe/pipe.pipe';
+import { ClassDirective } from './directive/class.directive'
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,13 +19,16 @@ import { UsersComponent } from './users/users.component'
     LibraryComponent,
     PageNotFoundComponent,
     BehaviourComponent,
-    UsersComponent
+    UsersComponent,
+    PipePipe,
+    ClassDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    FormsModule
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

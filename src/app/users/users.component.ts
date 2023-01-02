@@ -9,7 +9,7 @@ export class UsersComponent implements OnInit {
 @Input() name:string;
 @Output() myEvent = new EventEmitter<any>()
 test:any
-users = [];
+users = ['Admin','Super Admin', 'Teacher','Student', 'Parent'];
   constructor() { 
     
   }
