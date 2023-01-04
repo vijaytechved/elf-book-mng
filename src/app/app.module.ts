@@ -7,11 +7,12 @@ import { BookListComponent } from './book-list/book-list.component';
 import { LibraryComponent } from './library/library.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { BehaviourComponent } from './behaviour/behaviour.component';
-import { HttpClientModule } from '@angular/common/http';
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { UsersComponent } from './users/users.component';
 import { PipePipe } from './pipe/pipe.pipe';
 import { ClassDirective } from './directive/class.directive'
+import { HttpErrorInterceptor } from './http-error.interceptor';
 @NgModule({
   declarations: [
     AppComponent,
@@ -30,7 +31,14 @@ import { ClassDirective } from './directive/class.directive'
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [
+   {
+      provide: HTTP_INTERCEPTORS,
+      useClass: HttpErrorInterceptor,
+      multi: true
+    }
+  ],
+ 
   bootstrap: [AppComponent]
 })
 export class AppModule { }

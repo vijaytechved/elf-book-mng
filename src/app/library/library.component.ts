@@ -113,4 +113,11 @@ this.inputValue = e.target.value
         )
     })
   }
+  SmsSend(){
+    this.shared.SMSGetData().subscribe({
+      next: (data)=>console.log('data',data),
+      error: (err)=>console.log('error',err),
+      complete:()=>console.log('complete')
+    });
+  }
 }
