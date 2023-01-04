@@ -124,3 +124,11 @@ git rebase -i HEAD-2----- check how how many commets want to show
 ====
 git clone https://vijayc_techved@bitbucket.org/sairam_techved/usgi-test.git
 =====
+
+ng : File C:\Users\TVDMUMVC581\AppData\Roaming\npm\ng.ps1 cannot be loaded because running scripts is disabled on this         
+system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170. FullyQualifiedErrorId : UnauthorizedAccess
+
+## Ans.    
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
+## both Routing and Module
+ng g m  library --routing --flat

@@ -9,6 +9,11 @@
     "noImplicitOverride": true,
     "noImplicitAny": false,
     "noPropertyAccessFromIndexSignature": true,
+    "paths": {
+      "login": [
+        "dist/login"
+      ]
+    },
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "sourceMap": true,

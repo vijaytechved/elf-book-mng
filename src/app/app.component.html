@@ -1,7 +1,7 @@
 
 <router-outlet></router-outlet>
 <!-- <app-users *ngFor="let u of users" [name]="u"></app-users> -->
-<app-users  (myEvent)="getDatachildToParents($event)"></app-users>
+<!-- <app-users  (myEvent)="getDatachildToParents($event)"></app-users>
 <ng-container *ngIf="childToParents.length>0;else noData">
     <ul>
         <li *ngFor="let name of childToParents; even as isActive; odd as isDisabled">
@@ -14,11 +14,11 @@
 </ng-container>
 <ng-template #noData>
 <p>No Data in childToParents</p>
-</ng-template>
+</ng-template> -->
 <!-- Binds property value to the result of expression firstName. -->
-<form [formGroup]="Myform">
+<!-- <form [formGroup]="Myform">
     <input [value]="firstName" formControlName="firstName">
     <br>
     <br>
     <button type="submit" value="Submit" (click)="formValue()">Submit</button>
-</form>
+</form> -->

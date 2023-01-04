@@ -4,29 +4,22 @@ import { BookListComponent } from './book-list/book-list.component';
 import { LibraryComponent } from './library/library.component';
 import { LoginGuard } from './login.guard';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { HomeComponent } from './public-pages/home/home.component';
 
 const routes: Routes = [
   {
     path:'',
-    component:LibraryComponent,
+    component:HomeComponent,
     pathMatch:'full'
-  },
-  {
-    path:'library',
-    component:LibraryComponent
-  },
-  
-  {
-    path:'book-list',
-    component:BookListComponent,
-    canActivate:[LoginGuard],
-    data: {role:["login"]}
   },
   {
     path:'**',
     component:PageNotFoundComponent,
     redirectTo: ''
   },
+  {
+    path: 'user-registration', loadChildren: () => import('src/app/user-registration/user-registration.module').then(m => m.userRegistrationModule)
+  }
 ];
 
 @NgModule({

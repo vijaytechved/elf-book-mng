@@ -12,7 +12,13 @@ import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import { UsersComponent } from './users/users.component';
 import { PipePipe } from './pipe/pipe.pipe';
 import { ClassDirective } from './directive/class.directive'
-import { HttpErrorInterceptor } from './http-error.interceptor';
+import { HttpErrorInterceptor } from './interceptor/http-error.interceptor';
+import { MyInterceptorInterceptor } from './interceptor/my-interceptor.interceptor';
+import { ServiceWorkerModule } from '@angular/service-worker';
+import { environment } from '../environments/environment';
+import { LoginModuleModule } from './modules/login-module/login-module.module';
+import { HomeComponent } from './public-pages/home/home.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -22,21 +28,29 @@ import { HttpErrorInterceptor } from './http-error.interceptor';
     BehaviourComponent,
     UsersComponent,
     PipePipe,
-    ClassDirective
+    ClassDirective,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    LoginModuleModule,
+    ServiceWorkerModule.register('ngsw-worker.js', {
+      enabled: environment.production,
+      // Register the ServiceWorker as soon as the application is stable
+      // or after 30 seconds (whichever comes first).
+      registrationStrategy: 'registerWhenStable:30000'
+    })
   ],
   providers: [
    {
       provide: HTTP_INTERCEPTORS,
-      useClass: HttpErrorInterceptor,
+      useClass: MyInterceptorInterceptor,
       multi: true
-    }
+  }
   ],
  
   bootstrap: [AppComponent]
