@@ -131,4 +131,5 @@ system. For more information, see about_Execution_Policies at https:/go.microsof
 ## Ans.    
 Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 ## both Routing and Module
-ng g m  library --routing --flat
+ng g m  public-page --routing --flat
+ng generate module public-page-routing --flat --module=app

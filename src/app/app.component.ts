@@ -1,9 +1,12 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup } from '@angular/forms';
+import { RouterOutlet } from '@angular/router';
+import { slideInAnimation } from './animations';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
+  animations: [slideInAnimation],
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
@@ -40,5 +43,7 @@ export class AppComponent {
   // ngAfterViewInit() { console.log('ngAfterViewInit','') }
   // ngAfterViewChecked() { console.log('ngAfterViewChecked','Called after every check of the components views and child views / the view that a directive is in.') }
   // ngOnDestroy() { console.log('ngOnDestroy','Called once, before the instance is destroyed.') }
-
+  getAnimationData(outlet: RouterOutlet) {
+    return outlet && outlet.activatedRouteData && outlet.activatedRouteData['animation'];
+  }
 }

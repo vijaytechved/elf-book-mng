@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -21,6 +22,10 @@ import { HomeComponent } from './public-pages/home/home.component';
 import { ContactUsComponent } from './public-pages/contact-us/contact-us.component';
 import { userRegistrationModule } from './user-registration/user-registration.module';
 import { HeroesModule } from './heroes/heroes.module';
+import { PublicPageModule } from './public-pages/public-page.module';
+import { AuthModule }              from './auth/auth.module';
+import { ComposeMessageComponent } from './compose-message/compose-message.component';
+import { Router } from '@angular/router';
 
 @NgModule({
   declarations: [
@@ -34,9 +39,11 @@ import { HeroesModule } from './heroes/heroes.module';
     ClassDirective,
     HomeComponent,
     ContactUsComponent,
+    ComposeMessageComponent
   ],
   imports: [
     BrowserModule,
+    BrowserAnimationsModule,
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
@@ -44,6 +51,8 @@ import { HeroesModule } from './heroes/heroes.module';
     LoginModuleModule,
     HeroesModule,
     userRegistrationModule,
+    PublicPageModule,
+    AuthModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
       // Register the ServiceWorker as soon as the application is stable
@@ -61,4 +70,12 @@ import { HeroesModule } from './heroes/heroes.module';
  
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {
+   // Diagnostic only: inspect router configuration
+   constructor(router: Router) {
+    // Use a custom replacer to display function names in the route configs
+    // const replacer = (key, value) => (typeof value === 'function') ? value.name : value;
+
+    // console.log('Routes: ', JSON.stringify(router.config, replacer, 2));
+  }
+ }

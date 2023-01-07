@@ -3,10 +3,13 @@ import { RouterModule, Routes } from '@angular/router';
 import { BookListComponent } from './book-list/book-list.component';
 import { LibraryComponent } from './library/library.component';
 import { LoginGuard } from './login.guard';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { ContactUsComponent } from './public-pages/contact-us/contact-us.component';
 import { HomeComponent } from './public-pages/home/home.component';
+import { ComposeMessageComponent }  from './compose-message/compose-message.component';
+import { PageNotFoundComponent }    from './page-not-found/page-not-found.component';
 
+import { AuthGuard }                          from './auth/auth.guard';
+import { SelectivePreloadingStrategyService } from './selective-preloading-strategy.service';
 const appRoutes: Routes = [
    {
     path: 'user-registration', loadChildren: () => import('./user-registration/user-registration.module').then(m => m.userRegistrationModule)
@@ -26,6 +29,23 @@ const appRoutes: Routes = [
     component:PageNotFoundComponent,
    // redirectTo: ''
   },
+  {
+    path: 'compose',
+    component: ComposeMessageComponent,
+    outlet: 'popup'
+  },
+  {
+    path: 'admin',
+    loadChildren: ()=> import ('./admin/admin.module').then(a=>a.AdminModule),
+    canLoad: [AuthGuard]
+  },
+  {
+    path: 'crisis-center',
+    loadChildren: ()=> import('./crisis-center/crisis-center.module').then(c=>c.CrisisCenterModule),
+    data: { preload: true }
+  },
+  { path: '',   redirectTo: '/superheroes', pathMatch: 'full' },
+  { path: '**', component: PageNotFoundComponent }
  
 ];
 
@@ -35,7 +55,7 @@ const appRoutes: Routes = [
       appRoutes,
       {
         enableTracing: false, // <-- debugging purposes only
-      //  preloadingStrategy: SelectivePreloadingStrategyService,
+        preloadingStrategy: SelectivePreloadingStrategyService,
       }
     )
   ],
