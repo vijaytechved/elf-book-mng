@@ -5,7 +5,7 @@ import { RegisterComponent } from 'src/app/user-registration/register/register.c
 import { ForgetComponent } from 'src/app/user-registration/forget/forget.component';
 import { LostPasswordComponent } from 'src/app/user-registration/lost-password/lost-password.component';
 
-const routes: Routes = [
+const userRoutes: Routes = [
   { path:'', component:LoginComponent},
   { path:'register', component:RegisterComponent},
   { path:'forget', component:ForgetComponent},
@@ -13,7 +13,7 @@ const routes: Routes = [
  ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forChild(userRoutes)],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class userRegistrationRoutingModule { }

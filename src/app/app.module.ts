@@ -18,6 +18,9 @@ import { ServiceWorkerModule } from '@angular/service-worker';
 import { environment } from '../environments/environment';
 import { LoginModuleModule } from './modules/login-module/login-module.module';
 import { HomeComponent } from './public-pages/home/home.component';
+import { ContactUsComponent } from './public-pages/contact-us/contact-us.component';
+import { userRegistrationModule } from './user-registration/user-registration.module';
+import { HeroesModule } from './heroes/heroes.module';
 
 @NgModule({
   declarations: [
@@ -30,6 +33,7 @@ import { HomeComponent } from './public-pages/home/home.component';
     PipePipe,
     ClassDirective,
     HomeComponent,
+    ContactUsComponent,
   ],
   imports: [
     BrowserModule,
@@ -38,6 +42,8 @@ import { HomeComponent } from './public-pages/home/home.component';
     FormsModule,
     ReactiveFormsModule,
     LoginModuleModule,
+    HeroesModule,
+    userRegistrationModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
       // Register the ServiceWorker as soon as the application is stable
