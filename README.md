@@ -93,7 +93,7 @@ Prod
 
 -----
 
-git checkout -b branchname direcly switch the branch
+## git checkout -b branchname direcly switch the branch
 ===================================
 
 ---------------------------
