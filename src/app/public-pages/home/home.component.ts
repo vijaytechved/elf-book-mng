@@ -74,6 +74,13 @@ export class HomeComponent implements OnInit {
 // Object.entries(obj).forEach(([key, value]) => {
 //   console.log(`${key} ${value}`); // "a 5", "b 7", "c 9"
 // });
+const breakfasts = ['bacon', 'eggs', 'oatmeal', 'toast', 'cereal'];
+const order = 'Let me get some bacon and eggs, please';
+
+order.match(new RegExp(`\\b(${breakfasts.join('|')})\\b`, 'g'));
+console.log(order)
+// Returns ['bacon', 'eggs']
+
   }
 
   ParamClick(){
@@ -81,5 +88,6 @@ export class HomeComponent implements OnInit {
    // this.router.navigateByUrl('/contact-us'+encoded)
    this.router.navigate(['/user-registration'])
   }
+  
  
 }

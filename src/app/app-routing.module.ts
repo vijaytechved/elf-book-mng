@@ -11,24 +11,17 @@ import { PageNotFoundComponent }    from './page-not-found/page-not-found.compon
 import { AuthGuard }                          from './auth/auth.guard';
 import { SelectivePreloadingStrategyService } from './selective-preloading-strategy.service';
 const appRoutes: Routes = [
-   {
-    path: 'user-registration', loadChildren: () => import('./user-registration/user-registration.module').then(m => m.userRegistrationModule)
-  },
   {
-    path:'contact-us',
-    component:ContactUsComponent
+    path:'',
+    component:HomeComponent,
+    pathMatch:'full'
   },
+  //{ path: '',   redirectTo: '/superheroes', pathMatch: 'full' },
   // {
-  //   path:'',
-  //   component:HomeComponent,
-  //   pathMatch:'full'
+  //   path:'**',
+  //   component:PageNotFoundComponent,
+  //  // redirectTo: ''
   // },
-  { path: '',   redirectTo: '/superheroes', pathMatch: 'full' },
-  {
-    path:'**',
-    component:PageNotFoundComponent,
-   // redirectTo: ''
-  },
   {
     path: 'compose',
     component: ComposeMessageComponent,
@@ -44,7 +37,11 @@ const appRoutes: Routes = [
     loadChildren: ()=> import('./crisis-center/crisis-center.module').then(c=>c.CrisisCenterModule),
     data: { preload: true }
   },
-  { path: '',   redirectTo: '/superheroes', pathMatch: 'full' },
+  {
+    path:'public-pages',
+    loadChildren:()=> import('./public-pages/public-page.module').then(p=>p.PublicPageModule)
+  },
+  // { path: '',   redirectTo: '', pathMatch: 'full' },
   { path: '**', component: PageNotFoundComponent }
  
 ];

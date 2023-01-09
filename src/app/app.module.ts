@@ -48,10 +48,7 @@ import { Router } from '@angular/router';
     HttpClientModule,
     FormsModule,
     ReactiveFormsModule,
-    LoginModuleModule,
     HeroesModule,
-    userRegistrationModule,
-    PublicPageModule,
     AuthModule,
     ServiceWorkerModule.register('ngsw-worker.js', {
       enabled: environment.production,
