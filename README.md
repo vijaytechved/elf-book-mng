@@ -106,24 +106,16 @@ git checkout -b branchname direcly switch the branch
 4.git push origin v1.0
 
 ===========================
--------------------
-git revert changes
+## git revert changes
 
 git restore filename
 rm -rf filename
 git checkout --  filename
 git reset HEAD^
--------------------
 
-===================
 git add -a -m "dfds"
 git rebase -i HEAD-2----- check how how many commets want to show
-==========
 
-
-====
-git clone https://vijayc_techved@bitbucket.org/sairam_techved/usgi-test.git
-=====
 
 ng : File C:\Users\TVDMUMVC581\AppData\Roaming\npm\ng.ps1 cannot be loaded because running scripts is disabled on this         
 system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170. FullyQualifiedErrorId : UnauthorizedAccess
