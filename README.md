@@ -30,7 +30,15 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 $ npx @ngneat/elf-cli repo
 $ npx @ngneat/elf-cli repo --dry-run
 
+## Cannot find "deploy" target for the specified project.
+## You can add a package that implements these capabilities.
 
+For example:
+  Amazon S3: ng add @jefiozie/ngx-aws-deploy
+  Firebase: ng add @angular/fire
+  Netlify: ng add @netlify-builder/deploy
+  NPM: ng add ngx-deploy-npm
+  GitHub Pages: ng add angular-cli-ghpages
 ## for CMD
 .....
 git remote add origin https://github.com/vijaytechved/elf-book-mng.git
