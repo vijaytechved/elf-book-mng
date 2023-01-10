@@ -1,0 +1,32 @@
+In previous TP policy details page, "TP plan date from" and "TP plan Date to" are same as per previously user enter.
+	
+
+PUL-4459
+
+in Hypothecation Details: Unable to add space in Loan provider name
+	
+
+PUL-4472
+
+if vehicle registration number blank. Then display plan according to the vehicle purchase year.
+	
+
+PUL-4473
+
+User select first time proactive policy end date more than 90 days and then within 90 days now NCB value should be enabled but currently is disable
+	
+
+PUL-4474
+
+In motor private car - selecting comprehensive plan and scrolling IDV bar getting fluctuate, taking time to get stable
+	
+
+PUL-4460
+
+In geographical extension OD/TP: when user opt country after refreshing page, country not showing in drop down box.
+	
+
+PUL-4457
+
+Pvt Car, in geographical extension country should be mandatory.
+

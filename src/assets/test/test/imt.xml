@@ -1,0 +1,522 @@
+"
+
+<Root>
+    <Authentication>
+        <WACode>20000001</WACode>
+        <WAAppCode>30000004</WAAppCode>
+        <WAUserID>USER01</WAUserID>
+        <WAUserPwd>pass@123</WAUserPwd>
+        <WAType>0</WAType>
+        <DocumentType>Proposal</DocumentType>
+        <Versionid>1.1</Versionid>
+        <GUID>3C700114-3AE8-4B67-8DA7-CC23BDC6F451</GUID>
+    </Authentication>
+    <Customer>
+        <CustomerType>Individual</CustomerType>
+        <CustomerName>VIjayChauhan</CustomerName>
+        <DOB />
+        <Gender />
+        <CanBeParent>0</CanBeParent>
+        <MobileNo>9888888888</MobileNo>
+        <Emailid>dsfds@gmail.com</Emailid>
+        <PresentAddressLine1>undefined</PresentAddressLine1>
+        <PresentAddressLine2>GAZIPUR</PresentAddressLine2>
+        <PresentStateCode>UTTAR PRADESH</PresentStateCode>
+        <PresentCityDistCode>111111</PresentCityDistCode>
+        <PresentPinCode>111111</PresentPinCode>
+        <PermanentAddressLine1>Pune</PermanentAddressLine1>
+        <PermanentAddressLine2>GAZIPUR</PermanentAddressLine2>
+        <PermanentStateCode>UTTAR PRADESH</PermanentStateCode>
+        <PermanentCityDistCode>111111</PermanentCityDistCode>
+        <PermanentPinCode>111111</PermanentPinCode>
+        <ProductName>MOTOR - MOTOR PRIVATE CAR - BUNDLED</ProductName>
+        <ProductCode>2367</ProductCode>
+        <InstrumentNo>NULL</InstrumentNo>
+        <InstrumentDate>NULL</InstrumentDate>
+        <BankID>NULL</BankID>
+        <PosPolicyNo>51626846</PosPolicyNo>
+        <NomineeName />
+        <NomineeRelation />
+        <PANNo />
+    </Customer>
+    <Product Name=\"MOTOR - MOTOR PRIVATE CAR - BUNDLED\">
+        <GeneralProposal Name=\"General Proposal\">
+            <GeneralProposalGroup Name=\"General Proposal Group\">
+                <DistributionChannel Name=\"Distribution Channel\">
+                    <BranchDetails Name=\"Branch Details\">
+                        <IMDBranchName Name=\"IMDBranchName\" Value=\"\" />
+                        <IMDBranchCode Name=\"IMDBranch Code\" Value=\"\" />
+                    </BranchDetails>
+                    <SPDetails Name=\"SP Details\">
+                        <SPName Name=\"SP Name\" Value=\"\" />
+                        <SPCode Name=\"SP Code\" Value=\"\" />
+                    </SPDetails>
+                </DistributionChannel>
+                <GeneralProposalInformation Name=\"General Proposal Information\">
+                    <TypeOfBusiness Name=\"Type Of Business\" Value=\"FROM INTERMEDIARY\" />
+                    <ServiceTaxExemptionCategory Name=\"Service Tax Exemption Category\" Value=\"No Exemption\" />
+                    <BusinessType Name=\"Transaction Type\" Value=\"New\" />
+                    <Sector Name=\"Sector\" Value=\"Others\" />
+                    <ProposalDate Name=\"Proposal Date\" Value=\"11/11/2022\" />
+                    <DealId Name=\"Deal Id\" Value=\"\" />
+                    <PolicyNumberChar Name=\"PolicyNumberChar\" Value=\"\" />
+                    <VehicleLaidUpFrom Name=\"VehicleLaidUpFrom\" Value=\"\" />
+                    <VehicleLaidUpTo Name=\"VehicleLaidUpTo\" Value=\"\" />
+                    <PolicyEffectiveDate Name=\"Policy Effective Date\">
+                        <Fromdate Name=\"From Date\" Value=\"11/11/2022\" />
+                        <Todate Name=\"To Date\" Value=\"\" />
+                        <Fromhour Name=\"From Hour\" Value=\"00:00\" />
+                        <Tohour Name=\"To Hour\" Value=\"23:59\" />
+                    </PolicyEffectiveDate>
+                </GeneralProposalInformation>
+            </GeneralProposalGroup>
+            <FinancierDetails Name=\"Financier Details\">
+                <FinancierDtlGrp Type=\"Group\" Name=\"Financier Dtl Group\">
+                    <FinancierDtlGrpData Type=\"GroupData\">
+                        <FinancierCode Name=\"Financier Code\" Value=\"\" />
+                        <AgreementType Name=\"Agreement Type\" Value=\"Hypothecation\" />
+                        <BranchName Name=\"Branch Name\" Value=\"\" />
+                        <FinancierName Name=\"Financier Name\" Value=\"\" />
+                        <SrNo Name=\"Sr No\" Value=\"\" />
+                    </FinancierDtlGrpData>
+                </FinancierDtlGrp>
+            </FinancierDetails>
+            <PreviousPolicyDetails Name=\"Previous Policy Details\">
+                <PreviousPolDtlGroup Type=\"Group\" Name=\"Previous Pol Dtl Group\">
+                    <PreviousPolDtlGroupData Type=\"GroupData\">
+                        <ProductCode Name=\"Product Code\" Value=\"\" />
+                        <ClaimSettled Name=\"Claim Settled\" Value=\"\" />
+                        <ClaimPremium Name=\"Claim Premium\" Value=\"\" />
+                        <ClaimAmount Name=\"Claim Amount\" Value=\"0\" />
+                        <DateofLoss Name=\"Date Of Loss\" Value=\"\" />
+                        <NatureofLoss Name=\"Nature Of Loss\" Value=\"\" />
+                        <ClaimNo Name=\"Claim No\" Value=\"\" />
+                        <PolicyEffectiveTo Name=\"Policy Effective To\" Value=\"\" />
+                        <PolicyEffectiveFrom Name=\"Policy Effective From\" Value=\"11/11/2022\" />
+                        <DateOfInspection Name=\"DateOfInspection\" Value=\"\" />
+                        <PolicyPremium Name=\"PolicyPremium\" Value=\"\" />
+                        <PolicyNo Name=\"Policy No\" Value=\"\" />
+                        <PolicyYear Name=\"Policy Year\" Value=\"\" />
+                        <OfficeCode Name=\"Office Name\" Value=\"\" />
+                        <PolicyStatus Name=\"Policy Status\" Value=\"Unexpired\" />
+                        <CorporateCustomerId Name=\"Corporate Customer Id\" Value=\"\" />
+                        <InsurerName Name=\"InsurerName\" Value=\"\" />
+                        <InsurerAddress Name=\"InsurerAddress\" Value=\"PUNE\" />
+                        <TPPolicyEffectiveTo Name=\"TP Policy Effective To\" Value=\"\" />
+                        <TPPolicyEffectiveFrom Name=\"TP Policy Effective From\" Value=\"\" />
+                        <TPInsurerPolicyNo Name=\"TP Policy No\" Value=\"\" />
+                        <TpInsurerName Name=\"TP Insurer Name\" Value=\"\" />
+                    </PreviousPolDtlGroupData>
+                </PreviousPolDtlGroup>
+                <PreviousPolicyType Name=\"Previous Policy Type\" Value=\"\" />
+                <OfficeAddress Name=\"Office Address\" Value=\"\" />
+            </PreviousPolicyDetails>
+        </GeneralProposal>
+        <PremiumCalculation Name=\"Premium Calculation\">
+            <NetPremium Name=\"Net Premium\" Value=\"17345.00\" />
+            <ServiceTax Name=\"Service Tax\" Value=\"3122.10\" />
+            <StampDuty2 Name=\"Stamp Duty\" Value=\"1.00\" />
+            <CGST Name=\"CGST\" Value=\"0.00\" />
+            <SGST Name=\"SGST\" Value=\"0.00\" />
+            <UGST Name=\"UGST\" Value=\"0.00\" />
+            <IGST Name=\"IGST\" Value=\"3122.10\" />
+            <TotalPremium Name=\"Total Premium\" Value=\"20467.00\" />
+        </PremiumCalculation>
+        <Risks Name=\"Risks\">
+            <Risk Type=\"Group\" Name=\"Risks\">
+                <RisksData Type=\"GroupData\">
+                    <De-tariffLoadings Name=\"De-tariffLoadings\">
+                        <De-tariffLoadingGroup Name=\"De-tariff Loading Group\" Type=\"Group\">
+                            <De-tariffLoadingGroupData Type=\"GroupData\">
+                                <LoadingAmount Name=\"Loading Amount\" Value=\"\" />
+                                <LoadingRate Name=\"Loading Rate\" Value=\"\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <Description Name=\"Description\" Value=\"De-tariff Loading\" />
+                            </De-tariffLoadingGroupData>
+                        </De-tariffLoadingGroup>
+                    </De-tariffLoadings>
+                    <De-tariffDiscounts Name=\"De-tariffDiscounts\">
+                        <De-tariffDiscountGroup Type=\"Group\" Name=\"De-tariff Discount Group\">
+                            <De-tariffDiscountGroupData Type=\"GroupData\">
+                                <DiscountAmount Name=\"Discount Amount\" Value=\"\" />
+                                <DiscountRate Name=\"Discount Rate\" Value=\"0.65\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"1000.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.65\" />
+                                <Premium Name=\"Premium\" Value=\"12117.30\" />
+                                <Applicable Name=\"Applicable\" Value=\"True\" />
+                                <Description Name=\"Description\" Value=\"De-tariff Discount\" />
+                            </De-tariffDiscountGroupData>
+                        </De-tariffDiscountGroup>
+                    </De-tariffDiscounts>
+                    <CoverDetails Name=\"CoverDetails\">
+                        <Covers Type=\"Group\" Name=\"Covers\">
+                            <CoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"10000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <CoverGroups Name=\"CoverGroups\" Value=\"BUILTIN CNGLPG KIT OD\" />
+                            </CoversData>
+                            <CoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"10000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <CoverGroups Name=\"CoverGroups\" Value=\"BUILTIN CNGLPG KIT TP\" />
+                            </CoversData>
+                            <CoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"0.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <CoverGroups Name=\"CoverGroups\" Value=\"ELECTRICAL ACCESSORY OD\" />
+                            </CoversData>
+                            <CoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"100000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <CoverGroups Name=\"CoverGroups\" Value=\"FIBERTANK OD\" />
+                            </CoversData>
+                            <CoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"1000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <CoverGroups Name=\"CoverGroups\" Value=\"GEOGRAPHICAL EXTENSION - OD\" />
+                            </CoversData>
+                            <CoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"1000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <CoverGroups Name=\"CoverGroups\" Value=\"GEOGRAPHICAL EXTENSION - TP\" />
+                            </CoversData>
+                            <CoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"100000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <CoverGroups Name=\"CoverGroups\" Value=\"LEGAL LIABILITY TO PAID DRIVER\" />
+                            </CoversData>
+                            <CoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"0.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <CoverGroups Name=\"CoverGroups\" Value=\"NON ELECTRICAL ACCESSORY OD\" />
+                            </CoversData>
+                            <CoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"100000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <CoverGroups Name=\"CoverGroups\" Value=\"Other OD\" />
+                            </CoversData>
+                            <CoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"100000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <CoverGroups Name=\"CoverGroups\" Value=\"Other TP\" />
+                            </CoversData>
+                            <CoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"100000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <CoverGroups Name=\"CoverGroups\" Value=\"PA COVER TO OWNER DRIVER\" />
+                            </CoversData>
+                            <CoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"200000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <CoverGroups Name=\"CoverGroups\" Value=\"PA COVER TO PAID DRIVER\" />
+                            </CoversData>
+                            <CoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"200000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <CoverGroups Name=\"CoverGroups\" Value=\"PA COVER TO PASSENGERS\" />
+                            </CoversData>
+                            <CoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"200000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <CoverGroups Name=\"CoverGroups\" Value=\"UNNAMED PA COVER TO PASSENGERS\" />
+                            </CoversData>
+                            <CoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"18242.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.03\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"555655.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"True\" />
+                                <CoverGroups Name=\"CoverGroups\" Value=\"Basic OD\" />
+                            </CoversData>
+                            <CoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"10640.00\" />
+                                <Rate Name=\"Rate\" Value=\"10640.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"555655.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"True\" />
+                                <CoverGroups Name=\"CoverGroups\" Value=\"Basic TP\" />
+                            </CoversData>
+                            <CoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"400.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.04\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"10000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"True\" />
+                                <CoverGroups Name=\"CoverGroups\" Value=\"CNGLPG KIT OD\" />
+                            </CoversData>
+                            <CoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"180.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"10000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"True\" />
+                                <CoverGroups Name=\"CoverGroups\" Value=\"CNGLPG KIT TP\" />
+                            </CoversData>
+                        </Covers>
+                    </CoverDetails>
+                    <AddonCoverDetails Name=\"AddonCoverDetails\">
+                        <AddonCovers Name=\"AddonCovers\" Type=\"Group\">
+                            <AddonCoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"1000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <AddonCoverGroups Name=\"AddonCoverGroups\" Value=\"ACCIDENTAL HOSPITALIZATION\" />
+                            </AddonCoversData>
+                            <AddonCoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"1000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <AddonCoverGroups Name=\"AddonCoverGroups\" Value=\"COST OF CONSUMABLES\" />
+                            </AddonCoversData>
+                            <AddonCoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"1000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <AddonCoverGroups Name=\"AddonCoverGroups\" Value=\"DAILY CASH ALLOWANCE - METRO\" />
+                            </AddonCoversData>
+                            <AddonCoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"1000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <AddonCoverGroups Name=\"AddonCoverGroups\" Value=\"DAILY CASH ALLOWANCE - NONMETRO\" />
+                            </AddonCoversData>
+                            <AddonCoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"1000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <AddonCoverGroups Name=\"AddonCoverGroups\" Value=\"ENGINE PROTECTOR - DIESEL\" />
+                            </AddonCoversData>
+                            <AddonCoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"1000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <AddonCoverGroups Name=\"AddonCoverGroups\" Value=\"ENGINE PROTECTOR - PETROL\" />
+                            </AddonCoversData>
+                            <AddonCoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"1000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <AddonCoverGroups Name=\"AddonCoverGroups\" Value=\"HYDROSTATIC LOCK COVER\" />
+                            </AddonCoversData>
+                            <AddonCoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"1000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <AddonCoverGroups Name=\"AddonCoverGroups\" Value=\"KEY REPLACEMENT\" />
+                            </AddonCoversData>
+                            <AddonCoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"1000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <AddonCoverGroups Name=\"AddonCoverGroups\" Value=\"Nil Depreciation Waiver cover\" />
+                            </AddonCoversData>
+                            <AddonCoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"1000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <AddonCoverGroups Name=\"AddonCoverGroups\" Value=\"RETURN TO INVOICE\" />
+                            </AddonCoversData>
+                            <AddonCoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"1000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <AddonCoverGroups Name=\"AddonCoverGroups\" Value=\"Road side Assistance\" />
+                            </AddonCoversData>
+                            <AddonCoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"1000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <AddonCoverGroups Name=\"AddonCoverGroups\" Value=\"SECURE TOWING\" />
+                            </AddonCoversData>
+                            <AddonCoversData Type=\"GroupData\">
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"1000.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <AddonCoverGroups Name=\"AddonCoverGroups\" Value=\"Tyre and Rim secure\" />
+                            </AddonCoversData>
+                        </AddonCovers>
+                    </AddonCoverDetails>
+                    <OtherLoadings Name=\"OtherLoadings\">
+                        <OtherLoadingGroup Type=\"Group\" Name=\"Other Loading Group\" />
+                    </OtherLoadings>
+                    <OtherDiscounts Name=\"OtherDiscounts\">
+                        <OtherDiscountGroup Type=\"Group\" Name=\"Other Discount Group\">
+                            <OtherDiscountGroupData Type=\"GroupData\">
+                                <DiscountAmount Name=\"Discount Amount\" Value=\"0\" />
+                                <DiscountRate Name=\"Discount Rate\" Value=\"0\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"1000.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <Description Name=\"Description\" Value=\"Antitheft device discount\" />
+                            </OtherDiscountGroupData>
+                            <OtherDiscountGroupData Type=\"GroupData\">
+                                <DiscountAmount Name=\"Discount Amount\" Value=\"0\" />
+                                <DiscountRate Name=\"Discount Rate\" Value=\"0\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"1000.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <Description Name=\"Description\" Value=\"Automobile Association discount\" />
+                            </OtherDiscountGroupData>
+                            <OtherDiscountGroupData Type=\"GroupData\">
+                                <DiscountAmount Name=\"Discount Amount\" Value=\"0\" />
+                                <DiscountRate Name=\"Discount Rate\" Value=\"0\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <Description Name=\"Description\" Value=\"Handicap Discount\" />
+                            </OtherDiscountGroupData>
+                            <OtherDiscountGroupData Type=\"GroupData\">
+                                <DiscountAmount Name=\"Discount Amount\" Value=\"0\" />
+                                <DiscountRate Name=\"Discount Rate\" Value=\"0\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"6000.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <Description Name=\"Description\" Value=\"TPPD Discount\" />
+                            </OtherDiscountGroupData>
+                            <OtherDiscountGroupData Type=\"GroupData\">
+                                <DiscountAmount Name=\"Discount Amount\" Value=\"0\" />
+                                <DiscountRate Name=\"Discount Rate\" Value=\"0\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"0.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"False\" />
+                                <Description Name=\"Description\" Value=\"Voluntary deductable\" />
+                            </OtherDiscountGroupData>
+                            <OtherDiscountGroupData Type=\"GroupData\">
+                                <DiscountAmount Name=\"Discount Amount\" Value=\"1\" />
+                                <DiscountRate Name=\"Discount Rate\" Value=\"0\" />
+                                <SumInsured Name=\"SumInsured\" Value=\"1000.00\" />
+                                <Rate Name=\"Rate\" Value=\"0.00\" />
+                                <Premium Name=\"Premium\" Value=\"0.00\" />
+                                <Applicable Name=\"Applicable\" Value=\"True\" />
+                                <Description Name=\"Description\" Value=\"No claim bonus\" />
+                            </OtherDiscountGroupData>
+                        </OtherDiscountGroup>
+                    </OtherDiscounts>
+                </RisksData>
+            </Risk>
+            <VehicleClassCode Name=\"VehicleClassCode\" Value=\"45\" />
+            <VehicleMakeCode Name=\"VehicleMakeCode\" Value=\"126\" />
+            <VehicleModelCode Name=\"VehicleModelCode\" Value=\"53187\" />
+            <RTOLocationCode Name=\"RTOLocationCode\" Value=\"AN02\" />
+            <NoOfClaimsOnPreviousPolicy Name=\"No Of Claims On Previous Policy\" Value=\"0\" />
+            <RegistrationNumber Name=\"Registration Number\" Value=\"New\" />
+            <BodyTypeCode Name=\"BodyTypeCode\" Value=\"6\" />
+            <ModelStatus Name=\"ModelStatus\" Value=\"Active\" />
+            <GrossVehicleWeight Name=\"GrossVehicleWeight\" Value=\"\" />
+            <CarryingCapacity Name=\"CarryingCapacity\" Value=\"4\" />
+            <VehicleType Name=\"VehicleType\" Value=\"ALTROZ XE PETROL\" />
+            <PlaceOfRegistration Name=\"Place Of Registration\" Value=\"CAR NICOBAR\" />
+            <VehicleModel Name=\"VehicleModel\" Value=\"ALTROZ XE PETROL\" />
+            <VehicleExShowroomPrice Name=\"VehicleExShowroomPrice\" Value=\"584900.00\" />
+            <DateOfDeliveryOrRegistration Name=\"DateOfDeliveryOrRegistration\" Value=\"\" />
+            <YearOfManufacture Name=\"Year Of Manufacture\" Value=\"\" />
+            <DateOfFirstRegistration Name=\"DateOfFirstRegistration\" Value=\"10/11/2022\" />
+            <RegistrationNumberSection1 Name=\"Regn No. Section 1\" Value=\"\" />
+            <RegistrationNumberSection2 Name=\"Regn No. Section 2\" Value=\"\" />
+            <RegistrationNumberSection3 Name=\"Regn No. Section 3\" Value=\"\" />
+            <RegistrationNumberSection4 Name=\"Regn No. Section 4\" Value=\"\" />
+            <EngineNumber Name=\"Engine Number\" Value=\"New\" />
+            <ChassisNumber Name=\"Chassis Number\" Value=\"New\" />
+            <BodyColour Name=\"Body Colour\" Value=\"Others\" />
+            <FuelType Name=\"Fuel Type\" Value=\"Petrol\" />
+            <ExtensionCountryName Name=\"Extension Country Name\" Value=\"\" />
+            <RegistrationAuthorityName Name=\"Registration Authority Name\" Value=\"\" />
+            <AutomobileAssocnFlag Name=\"AutomobileAssocnFlag\" Value=\"\" />
+            <AutomobileAssociationNumber Name=\"Automobile Association Number\" Value=\"\" />
+            <VoluntaryExcess Name=\"Voluntary Access\" Value=\"\" />
+            <TPPDLimit Name=\"TPPDLimit\" Value=\"\" />
+            <AntiTheftDiscFlag Name=\"AntiTheftDiscFlag\" Value=\"\" />
+            <HandicapDiscFlag Name=\"HandicapDiscFlag\" Value=\"\" />
+            <NumberOfDrivers Name=\"NumberOfDrivers\" Value=\"\" />
+            <NumberOfEmployees Name=\"NumberOfEmployees\" Value=\"\" />
+            <TransferOfNCB Name=\"TransferOfNCB\" Value=\"\" />
+            <TransferOfNCBPercent Name=\"TransferOfNCBPercent\" Value=\"\" />
+            <NCBDeclaration Name=\"NCBDeclaration\" Value=\"\" />
+            <PreviousVehicleSaleDate Name=\"PreviousVehicleSaleDate\" Value=\"\" />
+            <BonusOnPreviousPolicy Name=\"BonusOnPreviousPolicy\" Value=\"\" />
+            <VehicleClass Name=\"VehicleClass\" Value=\"Four Wheeler\" />
+            <VehicleMake Name=\"VehicleMake\" Value=\"TATA\" />
+            <BodyTypeDescription Name=\"BodyTypeDescription\" Value=\"\" />
+            <NumberOfWheels Name=\"NumberOfWheels\" Value=\"\" />
+            <CubicCapacity Name=\"CubicCapacity\" Value=\"1199\" />
+            <SeatingCapacity Name=\"SeatingCapacity\" Value=\"5\" />
+            <RegistrationZone Name=\"RegistrationZone\" Value=\"A\" />
+            <VehiclesDrivenBy Name=\"Vehicles Driven By\" Value=\"\" />
+            <DriversAge Name=\"Drivers Age\" Value=\"\" />
+            <DriversExperience Name=\"Drivers Experience\" Value=\"\" />
+            <DriversQualification Name=\"Drivers Qualification\" Value=\"\" />
+            <VehicleModelCluster Name=\"VehicleModelCluster\" Value=\"\" />
+            <OpenCoverNoteFlag Name=\"OpenCoverNote\" Value=\"\" />
+            <LegalLiability Name=\"LegalLiability\" Value=\"\" />
+            <PaidDriver Name=\"PaidDriver\" Value=\"\" />
+            <NCBConfirmation Name=\"NCBConfirmation\" Value=\"\" />
+            <RegistrationDate Name=\"RegistrationDate\" Value=\"10/11/2022\" />
+            <TPLoadingRate Name=\"TPLoadingRate\" Value=\"\" />
+            <ExtensionCountry Name=\"ExtensionCountry\" Value=\"\" />
+            <VehicleAge Name=\"VehicleAge\" Value=\"\" />
+            <LocationCode Name=\"LocationCode\" Value=\"\" />
+            <RegistrationZoneDescription Name=\"RegistrationZoneDescription\" Value=\"\" />
+            <NumberOfWorkmen Name=\"NumberOfWorkmen\" Value=\"\" />
+            <VehicCd Name=\"VehicCd\" Value=\"\" />
+            <SalesTax Name=\"Sales Tax\" Value=\"\" />
+            <ModelOfVehicle Name=\"Model Of Vehicle\" Value=\"ALTROZ XE PETROL\" />
+            <PopulateDetails Name=\"Populate details\" Value=\"\" />
+            <VehicleIDV Name=\"VehicleInsuredDeclaredValue\" Value=\"555655.00\" />
+            <ShowroomPriceDeviation Name=\"ShowroomPriceDeviation\" Value=\"0\" />
+            <NewVehicle Name=\"New Vehicle\" Value=\"Rollover\" />
+            <PUCDeclaration Name=\"PUCDeclaration\" Value=\"YES\" />
+        </Risks>
+    </Product>
+    <PaymentDetails>
+        <PaymentEntry />
+    </PaymentDetails>
+    <Errors>
+        <ErrorCode />
+        <ErrDescription />
+    </Errors>
+</Root>"

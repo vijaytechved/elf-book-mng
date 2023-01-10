@@ -1,0 +1,37 @@
+Prod
+apiHealth : https://www.universal-sompo.net.in/HealthJsonSTP_PROD/
+Breaking : https://www.universal-sompo.net.in/BreakingInspectionUAT/
+apiHealthRenewal : https://www.universal-sompo.net.in:800/chiUpsaleIRenewalProd/
+RenewalHealth : https://www.usgi.co.in/PaymentGateway/paymentGetmain.aspx
+RenewalPaymentUrl : https://www.usgi.co.in/PaymentGateway/APIPayment.aspx
+completeRenewalUrlHealth : https://www.universalsompo.com/ChiUpsaleRenewalProd/api
+ameyoCallMe : https://telephony.universalsompo.com:8443
+paymentGatewayURL : https://www.usgi.co.in/PaymentGateway/extntitycallpage.aspx
+PDFLink : https://webuat.universalsompo.com/PaymentStatusAPIUAT/api
+
+PreProd
+--------....------
+
+apiHealth : https://webuat.universalsompo.com/RevisedCH_UAT/api/chi
+Breaking : https://webuat.universalsompo.com/
+apiHealthRenewal : https://webuat.universalsompo.com/USGIAPI/
+RenewalHealthPayment : https://webuat.universalsompo.com/PaymentGatewayUAT/ExtIntitycallpage.aspx
+RenewalPaymentUrl : https://webuat.universalsompo.com/PaymentGateway/APIPayment.aspx
+completeRenewalUrlHealth : https://webuat.universalsompo.com
+ameyoCallMe : https://telephony.universalsompo.com:8443
+paymentGatewayURL : https://webuat.universalsompo.com/PaymentGateway/extntitycallpage.aspx
+PDFLink : https://webuat.universalsompo.com/PaymentStatusAPIUAT/api
+
+------......------
+https://www.universalsompo.com/test.html
+
+UAT-----
+apiHealth : https://webuat.universalsompo.com/RevisedCH_UAT/api/chi
+Breaking : https://webuat.universalsompo.com/
+apiHealthRenewal : https://webuat.universalsompo.com/USGIAPI/
+RenewalHealthPayment : https://webuat.universalsompo.com/PaymentGatewayUAT/ExtIntitycallpage.aspx
+RenewalPaymentUrl : https://webuat.universalsompo.com/PaymentGateway/APIPayment.aspx
+completeRenewalUrlHealth : https://webuat.universalsompo.com
+ameyoCallMe : https://telephony.universalsompo.com:8443
+paymentGatewayURL : https://webuat.universalsompo.com/PaymentGateway/extntitycallpage.aspx
+PDFLink : https://webuat.universalsompo.com/PaymentStatusAPIUAT/api

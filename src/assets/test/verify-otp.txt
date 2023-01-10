@@ -1,0 +1,40 @@
+access-control-allow-credentials: true
+access-control-allow-origin: https://webuat.universalsompo.com:3001
+access-control-expose-headers: _AbpErrorFormat
+content-encoding: gzip
+content-type: text/plain; charset=utf-8
+date: Fri, 02 Dec 2022 07:26:31 GMT
+server: Kestrel
+vary: Origin,Accept-Encoding
+
+
+-----
+
+getting status code: 302 issue
+
+Access-Control-Allow-Credentials: true
+Access-Control-Allow-Origin: https://preprodweb.universalsompo.com
+Access-Control-Expose-Headers: _AbpErrorFormat
+Connection: Keep-alive
+Date: Fri, 02 Dec 2022 07:24:34 GMT
+Location: /cms/Error?httpStatusCode=400
+Server: Microsoft-IIS/10.0
+Transfer-Encoding: chunked
+Vary: Origin
+Via: 1.1 ID-7716077347226423 uproxy-3
+X-Correlation-Id: d1f5da0d303f45ea9b02fb421d4ecb3b
+
+
+
+HTTP/1.1 200 OK
+Transfer-Encoding: chunked
+Content-Type: text/plain; charset=utf-8
+Content-Encoding: gzip
+Vary: Origin,Accept-Encoding
+Server: Microsoft-IIS/10.0
+Access-Control-Allow-Origin: https://preprodweb.universalsompo.com
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: _AbpErrorFormat
+Date: Fri, 02 Dec 2022 07:28:19 GMT
+Connection: Keep-alive
+Via: 1.1 ID-7716077347226423 uproxy-2

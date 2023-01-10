@@ -1,0 +1,6 @@
+Request URL: https://www.universalsompo.com/USGIAPI/api/GetBranchListByCityName?CityName=-
+
+
+https://www.universalsompo.com/USGIAPI/api/GetAllStateNames
+
+

@@ -1,0 +1,127 @@
+username : techved_kunal
+password : FAD54#rts
+  I have shared build for UAT  Please deploy it
+https://meet.google.com/ccw-hczb-qxg
+techved_mohan
+
+AATPU7693N
+
+
+Mo@123han
+
+techved_anjali
+	
+ng add @nguniversal/express-engine --techved
+An@456jal
+
+techved_vijay
+	selectedAdditionalCoverAndDiscount
+
+Vi@789jay
+
+techved_mangesh
+	
+
+Ma@325nge
+
+
+1st server (172.16.2.185) : Welcome@12
+2nd server (172.16.3.97) : Welcome@123
+
+
+https://www.universalsomporemoteaccess.com/prx/000/http/localhost/logout/index.html
+
+CHATBOTSERVER5\techved_vijay
+
+
+pass : Sbin#123
+
+username : techved_vishal
+
+
+techved_kdas
+Ved@9872
+
+172.16.3.97
+Usgi@12345
+
+
+192.168.1.59
+
+2011
+techved_vijay
+Vi@789jay
+
+172.16.3.97
+AXSZwe@@!1234567
+a9f9cbae less then three
+Up to future 2 years date  for 4W 5 years for 2 W
+
+vijaya.kumbhar@universalsompo.com
+this.form.valueChanges.subscribe(newValues => {
+    // disable the button if new value matches initial value
+    this.disableSaveBtn = this.valuesMatch(newValues, initValues)
+})
+
+PB08EQ2496
+MH05AX3353
+const typeahead = fromEvent(searchBox, 'input').pipe(filter(text => text.length > 2),
+  debounceTime(10),
+  distinctUntilChanged(),
+  switchMap(() => ajax('/api/endpoint'))
+);
+New System less 3 years then com and 3 od
+
+greater 3 yrs then com and tp
+ 
+tarang P: techved@123
+not vichle no then less then 3 yrs 2022 tp and od
+Not provided login details by HR
+3 month to gqp com qnd tp
+same only com
+14778
+15194 15217-500
+
+let d = previousEndate;
+console.log(d.toLocaleDateString());
+d.setMonth(d.getMonth() +3);
+console.log(d.toLocaleDateString());
+
+let d1 = moment(startDateString, "DD-MM-YYYY HH:mm");
+let d2 = moment(endDateString, "DD-MM-YYYY HH:mm");
+
+
+https://teams.microsoft.com/l/meetup-join/19:meeting_MmEyZDE2MWEtYTQ0OS00M2ZlLWJkZWMtNmFkZWQ3Yzc3NTRi@thread.v2/0?context=%7B%22Tid%22:%226711144d-0fee-460c-a2ae-f7250e741cf6%22,%22Oid%22:%2259a1f876-394f-4bab-becc-127a53872086%22%7D 
+
+
+
+Meeting-4PM 
+
+
+Purchase date within 6 month - 
+
+Jira access
+Email: bontikap@techved.com
+P: bontikap@123
+bontikap
+
+30-11-2021
+then taking 30-11-2021 to 31-12-2023
+
+PR no case dont show pop
+
+De-tariff Discount Group---Discount
+{Error_Code: '800', Error_Description: ',IDV can not be more than Deviation'}
+Basic OD
+₹ 21816
+Discount
+- ₹ 14180
+3297
+18316
+21582
+21613
+7552
+2367
+
+https://salesforce-proj.atlassian.net/browse/PUL-4521
+https://salesforce-proj.atlassian.net/browse/PUL-4522

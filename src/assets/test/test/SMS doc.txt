@@ -1,0 +1,12 @@
+SMS API 
+
+http://universal-sompo.ind.in/communication/api/sendsms?mobileNo={{Mobile No}}&sms={{SMS content}}
+
+Sample SMS API
+
+http://universal-sompo.ind.in/communication/api/sendsms?mobileNo=9717332888&sms=Dear Hello ,Greetings from Universal Sompo General Insurance!  Click here https://www.usgi.co.in/p?q=ed3ASVwPRK to complete your KYC. Please ignore if you have completed the KYC.
+
+
+
+
+

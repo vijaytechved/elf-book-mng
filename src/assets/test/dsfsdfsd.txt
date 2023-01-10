@@ -1,0 +1,12 @@
+New journey
+
+Chassis number validation: min 5 max no limit
+
+Engine number: min: no validation max 17
+
+
+
+Old journey
+
+Engine number: min 5 
+Chassis number validation: no validation

@@ -1,0 +1,15 @@
+Request URL: https://webuat.universalsompo.com/RevisedCHI_UAT/api/Chi/revisedCHI
+
+Request URL: https://www.universal-sompo.net.in/HealthJsonSTP_PROD/api/Chi/revisedCHI
+
+
+1. LOB, Product, Journey and function point (e.g Motor, Private car, New, Quote)
+
+2. API Type - 
+CMS
+
+3. API URL and sample request response 
+
+localStorage.setItem('isOtpVerifiedMob', '9999999999')
+localStorage.setItem('isOtpVerified', ''true')
+

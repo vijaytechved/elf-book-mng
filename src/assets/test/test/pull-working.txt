@@ -1,0 +1,31 @@
+PUL-4545--done
+PUL-4560--working
+----
+15---
+PUL-4592:Done
+PUL-4545--done
+PUL-4560--working
+PUL-4564--working
+
+===
+17---
+PUL-4560--done
+PUL-4564--done
+
+==
+---
+19---
+PUL-4605--done
+PUL-4606--working
+---
+
+---
+21	---
+PUL-4605--done
+PUL-4606--working
+---
+app.controller("UserPolicyDtlsController", function ($scope, $location, $rootScope, $window, MotorRenewalFactory, GetPolicyDtls_Srvc) {
+
+
+Request URL: https://webuat.universalsompo.com/Motor-renewal/Pages/UserPolicyDtls.html
+Request Method: GET

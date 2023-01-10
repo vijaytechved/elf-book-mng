@@ -1,0 +1,8 @@
+https://stackblitz.com/edit/angular-2hrvck?file=app%2Fapp.component.ts,app%2Fapp.component.html,app%2Fapp.module.ts,index.html
+https://stackblitz.com/edit/angular-cpy9sa?file=app%2Fapp.component.ts,app%2Fapp.component.html,app%2Fapp.module.ts,app%2Fhello.component.ts
+https://stackblitz.com/edit/registration-form?file=src%2Fapp%2Flogin%2Flogin.component.html
+https://stackblitz.com/edit/angular-6-reactive-form-validation-touched?file=app%2Fapp.component.html
+https://stackblitz.com/angular/moovprgmmrab?file=src%2Fapp%2Ftemplate%2Fhero-form-template.component.html
+ABCTY1234D
+
+https://stackblitz.com/edit/angular-binding-select-with-input?file=src%2Fapp%2Fselect-input%2Fselect-input.component.html

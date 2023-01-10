@@ -1,0 +1,29 @@
+
+
+QA
+Angular : https://webuat.universalsompo.com:3000/
+USGICMS(AngularAdmin) : https://webuat.universalsompo.com:3000/usgicms
+CMs (.netCore): https://webuat.universalsompo.com:3000/cms
+WebAPI(WebAPI's) : https://webuat.universalsompo.com/USGIAPI/api
+
+UAT
+Angular :  https://webuat.universalsompo.com:3001/
+USGICMS(AngularAdmin) : https://webuat.universalsompo.com:3001/usgicms
+CMs : https://webuat.universalsompo.com:3001/cms
+WebAPI(WebAPI's) : https://webuat.universalsompo.com/USGIAPI/api
+
+PreProd
+Angular :  https://preprodweb.universalsompo.com/
+USGICMS(AngularAdmin) : https://preprodweb.universalsompo.com/usgicms
+CMs : https://preprodweb.universalsompo.com/cms
+WebAPI(WebAPI's) : https://webuat.universalsompo.com/USGIAPI/api
+
+Prod
+Angular : https://www.universalsompo.com
+USGICMS(AngularAdmin) : https://www.universalsompo.com/usgicms
+CMs : https://www.universalsompo.com/cms
+WebAPI(WebAPI's) : https://universalsompo.com/USGIAPI/api
+
+https://webuat.universalsompo.com/USGIAPI/api/MotorQuote
+https://webuat.universalsompo.com/RevisedCHI_UAT/api/Chi/revisedCHI
+

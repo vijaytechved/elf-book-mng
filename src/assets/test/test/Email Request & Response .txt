@@ -1,0 +1,42 @@
+API URL : www.universal-sompo.ind.in/communication/api/TransSendEmail
+
+Method : POST
+
+Postman Request :
+
+
+{
+    "auth": {
+        "WACode": "20000001",
+        "WAAppCode": "30000002",
+        "Source": "E-POS MOTOR"
+    },
+    "subject": "POC Net Core Application for USGI Transactional Bulk Email",
+    "to": [
+        {
+            "email": "sgupta2@universalsompo.com",
+            "name": "Vijaya"
+        }
+    ],
+    "cc": [
+        {
+            "email": "hriday.ims@gmail.com"
+        }
+    ],
+    "bcc": [
+        {
+            "email": "vkumbhar2222@gmail.com"
+        }
+    ],
+   
+    "content": [
+        {
+            "type": "html",
+            "value": "<p>Dear Customer,</p><p>Thank you for choosing us as your insurance partner for <b>TWO WHEELER LIABILITY POLICY</b> Policy.  We&rsquo;re extremely delighted to have you on-board. And we are going to be with you every step of the way.</p>\n<table   style='width: 900px;font-family:calibri'   cellspacing='0'><tr style='text-align:center;'><td  align='center'><img class='imglogo'src='http://webuat.universalsompo.com/paymentgatewayUAT/XSL/logo.png' /></td></tr></table>"
+        }
+    ]
+}
+
+
+
+Postman Response : "{\"data\":{\"message_id\":\"05080010b21ba9fc6f84fde33d3a1bec\"},\"message\":\"OK\",\"status\":\"success\"}\n"

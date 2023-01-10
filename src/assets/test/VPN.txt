@@ -1,0 +1,98 @@
+techved_vijay
+Vi@789jay
+----Vi@789jay----github paass----- username----- vijaytechved
+172.16.3.97
+AXSZwe@@!1234567
+WIFI----B3FC---- a9f9cbae
+2----wifi---0a6b1014
+"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --disable-web-security  --user-data-dir=~/chromeTemp
+
+
+"C:\Program Files\Google\Chrome\Application\chrome.exe"
+
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --disable-web-security --user-data-dir="C:/ChromeDevSession
+"C:\Program Files\Google\Chrome\Application\chrome.exe" --args --disable-web-security
+
+
+https://preprodweb.universalsompo.com//USGIAPI/api/GetAllCityNames?getCityforListType=garage
+
+4527
+4525
+4518
+KA17HC0313
+2311/50254152/12/000
+
+AATPU7693N
+            <customHeaders>
+				<add name="Access-Control-Allow-Origin" value="*"/>
+				<add name="Access-Control-Allow-Methods" value="GET,PUT,POST,DELETE,OPTIONS"/>
+				<add name="Access-Control-Allow-Headers" value="Content-Type"/>
+			</customHeaders>
+
+AXSZwe@@!1234567
+AXSZwe@@!1234567
+AXSZwe@@!1234567
+AXSZwe@@!1234567
+3376--motor
+
+ 
+2825/64880493/00/000
+
+
+https://webuat.universalsompo.com/CompleteHealthCare/MembersQuotationInfo/MembersQuotationInfo?MemberDetails=System.Collections.Generic.List%601%5BCompleteHealthCare.Models.MemberDetails%5D&MemberCount=1&PolicyYear=1&FamilyType=1%20Adult&policyType=Individual&SI=400000&PlanName=Essential&address1=NULL&state=TAMIL%20NADU&city=%2CSIVAGIRI%20%20VIA%20%20ERODE%20DIST&pincode=638109
+03-11-1984
+03/11/1984
+AATPU7693N
+-----Jira-acessssssssssssssss--------------
+vijayc@techved.com
+tech@123
+username: vijayc_techved
+-----------
+git reset --hard e16e8c1a6a
+git rebase -i e16e8c1a6a^
+git reset --hard e16e8c1
+---usgi-----daily --scurm ---- --internal----
+========
+03-11-1984
+
+AATPU7693N
+===========
+DL-14-CC-3036
+
+DL-3S-DW-8452
+
+DL-9S-BH-8346
+
+DL-9S-BH-8346
+
+DL-3S-DW-8452
+
+DL-9S-BH-8346
+
+DL-9S-BH-8346
+
+DL-8C-Z-9507
+
+DL-6S-AG-0294
+
+DL-8S-CJ-3935
+
+https://preprodweb.universalsompo.com/USGIAPI/api/
+git clone USGIAPI/api/GetStateNamesForMotorInsurance
+http://universalsompo.com//USGIAPI/api/GetBranchListByCityName?CityName=-
+
+oninput="this.value = this.value.toUpperCase()" 
+access-control-allow-origin :"*"
+Access-Control-Allow-Methods :"GET, PUT, POST, DELETE, OPTIONS"
+Access-Control-Allow-Headers :"Authorization, Content-Type, Accept, X-Mashape-Authorization"
+date of purchase date
+
+Feedback on Induction held on 15th Nov '22.
+
+access-control-allow-methods: PUT, GET, HEAD, POST, DELETE, OPTIONS
+access-control-allow-origin: https://www.universal-sompo.net.in/HealthJsonSTP_PROD/api/Chi/revisedCHI
+
+
+22--Out
+29----BOth
+

@@ -1,0 +1,23 @@
+checkReliefSought = (re:any) => {
+    if(re != null){
+      return (re.split(' ').length>=14);
+    }else{
+      return false
+    }
+  }
+  
+  .textViewMore{width: 500px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    display: block;}
+.hideMore{display: none;}
+  
+    <div class="d-flex justify-content-between" *ngIf="data?.reliefSought!=null">
+	  <div [ngClass]="{textViewMore: checkReliefSought(data?.reliefSought)}">
+	  <div class="mt-3" [innerHTML]="data?.reliefSought"></div>
+	  </div>
+	  <a *ngIf="checkReliefSought(data?.reliefSought)" class="link-color showMore"
+	  href="javascript:void(0)">View More</a>
+	  <a class="link-color hideMore" href="javascript:void(0)">Hide</a>
+	</div>

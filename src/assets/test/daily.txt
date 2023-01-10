@@ -1,0 +1,8 @@
+Dail-first
+
+1.login
+2.ninga
+3.work
+4.logout
+5.ninga-add
+then 
