@@ -1,0 +1,73 @@
+Date,Project Name,Work Type,Task Description,Task Type,Work Count,Hr:Mins,Task Status,Comments
+10-10-2022,USGI  Phase 2 -  Universal Sompo General Insurance,R&D,Searched about Insurance domain,R&D,0,6:00,Completed,NA
+11-10-2022,USGI  Phase 2 -  Universal Sompo General Insurance,Review,KT,Review,0,7:00,In Progress,NA
+12-10-2022,USGI  Phase 2 -  Universal Sompo General Insurance,Review,Had Meeting with Dev Team,Review,0,8:30,Completed,NA
+13-10-2022,USGI  Phase 2 -  Universal Sompo General Insurance,Review,Coordinates with ramakrishna and Mayur relates bugs issues,Review,0,8:20,Completed,NA
+14-10-2022,USGI  Phase 2 -  Universal Sompo General Insurance,Review,Worked with fulaji bugs related issue  also R and D,R&D,0,8:30,Completed,NA
+15-10-2022,USGI  Phase 2 -  Universal Sompo General Insurance,New,Worked with fula ji fixed 2 bugs,No. of Bugs Solved,6,8:30,Completed,NA
+17-10-2022,USGI  Phase 2 -  Universal Sompo General Insurance,New,Two bug fixed with FulaJi and R and D about USGI Products,No. of Bugs (Front End),3,8:30,Completed,NA
+18-10-2022,USGI  Phase 2 -  Universal Sompo General Insurance,Review,Travel issue facing,Review,0,8:00,Completed,NA
+19-10-2022,USGI  Phase 2 -  Universal Sompo General Insurance,New,Review the code with Fula ji,Review,0,8:20,Completed,NA
+20-10-2022,USGI  Phase 2 -  Universal Sompo General Insurance,Review,Worked with FulaJi bugs related issue fixed,Review,0,9:00,Completed,NA
+20-10-2022,USGI  Phase 2 -  Universal Sompo General Insurance,New,Worked bug fix issues with fulaji,Review,0,9:00,In Progress,NA
+21-10-2022,USGI  Phase 2 -  Universal Sompo General Insurance,New,Worked with FulaJi bugs related issue fixed,No. of Bugs Solved,2,9:20,Completed,NA
+27-10-2022,USGI  Phase 2 -  Universal Sompo General Insurance,New,Working bugs,No. of Bugs Solved,3,9:00,In Progress,NA
+28-10-2022,USGI  Phase 2 -  Universal Sompo General Insurance,New,Worked bugs relates issue,No. of Bugs Solved,3,9:10,Completed,NA
+29-10-2022,USGI  Phase 2 -  Universal Sompo General Insurance,New,Worked bugs,No. of Bugs Solved,2,9:30,Completed,NA
+31-10-2022,USGI REM,New,Supported to  Mayur bugs related issues,No. of Bugs Solved,2,9:10,Completed,NA
+01-11-2022,USGI REM,Re-work-Internal,Worked point No PUL4479 and PUL4456,No. of Bugs Solved,2,9:20,Completed,NA
+02-11-2022,USGI REM,New,Worked reopen task PUL4479 and PUL4456,No. of Bugs Solved,2,9:20,In Progress,NA
+03-11-2022,USGI REM,Re-work-External,Worked New additional covers popup issue,No. of Bugs Solved,2,10:30,Completed,NA
+04-11-2022,USGI REM,New,Worked additional covers pop OD and supported to anjali regarding software issue explain the code structure,No. of Bugs Solved,1,9:30,Completed,NA
+05-11-2022,USGI REM,New,Review the code and attend the meeting,Review,0,9:10,Completed,NA
+07-11-2022,USGI REM,New,"Coordinates with Anjali related changes and working PUL4405, 4504, 4501,4503",No. of Bugs Solved,3,9:00,In Progress,NA
+08-11-2022,USGI REM,New,Worked with 4503 bug and 5401 coordinates with anjali bug related issue,No. of Bugs Solved,1,9:00,Completed,NA
+09-11-2022,USGI REM,New,Worked bugs additional covers and coordinates with Anjali and navin,No. of Bugs Solved,1,9:00,Completed,-
+10-11-2022,USGI REM,New,had meeting with usgi go live and two bug fixed,No. of Bugs Solved,2,9:00,Completed,NA
+14-11-2022,USGI REM,New,Working IDV issue,Review,0,9:00,In Progress,Forget to add attendance 11 Nov Please add  
+15-11-2022,USGI REM,New,Worked IDV issue and attend meeting,No. of Bugs Solved,1,9:10,Completed,NA
+16-11-2022,USGI REM,New,Review API related issue and Tested IDV issue,Review,0,9:00,Completed,NA
+17-11-2022,USGI REM,New,Working 4418,Review,0,9:01,In Progress,NA
+18-11-2022,USGI REM,New,Worked 4518 and supported to mayur CHL issue related,No. of Bugs Solved,2,9:10,Completed, forgot HR portal login
+19-11-2022,USGI REM,New,Worked merged issues    preprod,No. of Bugs Solved,4,9:30,Completed,NA
+21-11-2022,USGI REM,New,Working 4502 and 4527,No. of Bugs Solved,1,9:30,In Progress,NA
+23-11-2022,USGI REM,New,Worked additional covers page issue,No. of Bugs Solved,2,9:30,Completed,Forget add 22 attendance 
+24-11-2022,USGI REM,New,had meeting and worked pull 4502 and 4503,No. of Bugs Solved,2,9:20,Completed,NA
+28-11-2022,USGI REM,New,Worked Additional covers issue,No. of Bugs Solved,1,9:30,Completed,forget add 25 attendance 
+29-11-2022,USGI REM,New,taking git training given hr and working given task,No. of Bugs Solved,1,9:02,In Progress, NA
+30-11-2022,USGI REM,New,"taking git training given hr  and  working 4536 issue , facing api issue",No. of Bugs Solved,2,9:00,In Progress, NA
+02-12-2022,USGI REM,New,Complete GIT training and worked additional covers issue,No. of Bugs Solved,1,9:20,Completed,1 Dec attendance  not added
+03-12-2022,USGI REM,New,Working  PUL  4528 OD and TP,R&D,0,9:20,In Progress,NA
+05-12-2022,USGI REM,New,Had meeting with mohmmed and team regarding train and Working od and TP related issues,R&D,0,9:00,In Progress,NA
+06-12-2022,USGI REM,New,working TP and OD related issue and IDV,No. of Bugs (Front End),2,10:02,In Progress,NA
+07-12-2022,USGI REM,New,Worked cors issue and working bug fixing,No. of Bugs (Front End),2,10:00,Completed,NA
+08-12-2022,USGI REM,New,Working motor bugs and Cors issue,No. of Bugs Solved,1,9:10,Completed,NA
+09-12-2022,USGI REM,New,Working Additional covers Motor Quote issue  also support komal souce code,No. of Bugs Solved,1,9:00,In Progress,NA
+13-12-2022,USGI REM,New,Worked cors related issue and working additional cover issue,No. of Bugs (Front End),1,9:20,In Progress,NA
+14-12-2022,USGI REM,New,Resolved 4565 and working additional covers modal,No. of Bugs Solved,1,9:10,Completed,NA
+15-12-2022,USGI REM,New,Worked pull 4545 issue usgi project and 4564,No. of Bugs Solved,2,11:00,In Progress,NA
+16-12-2022,USGI REM,New,Worked Pull no 4560  and support to Komal,No. of Bugs Solved,1,9:10,Completed,NA
+17-12-2022,USGI REM,New,Worked engine and chassis no validation and PUL4606 this pull no,No. of Bugs Solved,1,9:19,In Progress,NA
+19-12-2022,USGI REM,New,done4605 and working 4606,No. of Bugs (Front End),1,9:00,In Progress,NA
+20-12-2022,USGI REM,New,Working PUL4606 issue in additional covers page,No. of Bugs Solved,1,9:00,In Progress,NA
+21-12-2022,USGI REM,New,Worked  PUL4606,No. of Bugs (Front End),1,9:00,Completed,-
+22-12-2022,USGI REM,New,Worked 4537 and 4612,No. of Bugs (Front End),2,9:00,Completed,NA
+23-12-2022,Training,New,Attend December DO,Training,0,9:00,Completed,NA
+26-12-2022,Training,New,attend meeting and 3 hrs worked USGI Project . training,Training,0,8:46,Completed,-
+27-12-2022,Training,New,doing training given by priyanka,Training,0,8:40,Completed,NA
+28-12-2022,USGI REM,New,Worked additional covers issue,R&D,0,5:20,Completed,NA
+28-12-2022,Training,Training,had training,Training,0,4:30,Completed,NA
+29-12-2022,USGI REM,R&D,had meeting with team regarding cors  issue CKYC,R&D,0,8:30,Completed,NA
+30-12-2022,Training,New,had training given by Priyanka,Training,0,9:20,Completed,NA
+31-12-2022,Training,Training,Had training,Training,0,9:10,Completed,NA
+02-01-2023,USGI REM,New,tested additional covers issue,No. of Bugs (Front End),2,2:00,Completed,NA
+02-01-2023,Training,New,had training,Training,0,7:00,Completed,NA
+03-01-2023,Training,New,Had training,Training,0,8:00,Completed,-
+03-01-2023,USGI REM,New,1hrs  USGI meeting bugs related,Testing,0,1:00,Completed,NA
+04-01-2023,Training,New,had training given by Priyanka,Training,0,9:20,Completed,-
+05-01-2023,Training,Training,Had training given by Priyanka,Training,0,9:50,Completed,NA
+06-01-2023,USGI REM,R&D,Working API Docs  given by Jaydeep Sir,R&D,0,8:50,In Progress,NA
+07-01-2023,USGI REM,New,"Worked API DOCs given by Jaydeep Sir , attend cors issue related meeting",R&D,0,9:30,Completed,NA
+09-01-2023,Training,New,Had training given by Priyanka,Training,0,9:20,Completed,NA
+10-01-2023,USGI REM,New,Had meeting with teams motor related issue.,R&D,0,2:00,Completed,NA
+10-01-2023,Training,New,had training given priyanka Mam,Training,0,7:10,Completed,NA
