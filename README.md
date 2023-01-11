@@ -133,3 +133,19 @@ Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy Unrestricted
 ## both Routing and Module
 ng g m  public-page --routing --flat
 ng generate module public-page-routing --flat --module=app
+
+## Did you see any errors after running npm install?
+
+Did you run npm audit fix? Running the fix will cause a mismatch with your versions, so it should not be run.
+
+## Try this:
+
+Delete node_module folder and the package-lock.json file.
+Run npm cache verify to verify and clean up your npm.
+Run npm install again. (Do NOT run npm audit fix)
+Run npm start
+
+## Suggests trying:
+
+npm install --force
+npm install --legacy-peer-deps
